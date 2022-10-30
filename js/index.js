@@ -95,7 +95,7 @@ $(document).ready(function(){
         
     });
     
-    var windowWidth = $( window ).width(); 
+    var windowWidth = $( window ).width('1620px'); 
     if(windowWidth < 771) {
         $(document).ready(function(){
             $( '.best_product' ).width( '97vw' );
@@ -105,7 +105,6 @@ $(document).ready(function(){
             $( '.best_product' ).width( '90vw' );
         });  
     } else {
-
         $(document).ready(function(){
         $( '.best_product' ).width( '1620px' );
     });
