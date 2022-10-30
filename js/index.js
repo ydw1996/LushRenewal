@@ -64,7 +64,7 @@ $(document).ready(function(){
     var tabAnchor = $('.three_box a'),
         tabPanel = $('.sec04');
 
-        //링크를 클하면 할 일 
+        //링크를 클릭하면 할 일 
         tabAnchor.click(function(e){
             e.preventDefault();
             
