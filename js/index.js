@@ -74,7 +74,6 @@ $(document).ready(function(){
             tabPanel.hide();
 
             var $target =$(this).attr('href');
-            console.log($target);
 
             $($target).fadeIn(600);
 
@@ -90,12 +89,11 @@ $(document).ready(function(){
 
     // sec04 슬라이드
     $(document).ready(function(){
-        $('.sec04_container').bxSlider({
-        });
+        $('.sec04_container').bxSlider();
         
     });
     
-    var windowWidth = $( window ).width('1620px'); 
+    var windowWidth = $( window ).width(); 
     if(windowWidth < 771) {
         $(document).ready(function(){
             $( '.sec04 .best_product' ).width( '97vw' );
