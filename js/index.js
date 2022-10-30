@@ -98,15 +98,15 @@ $(document).ready(function(){
     var windowWidth = $( window ).width('1620px'); 
     if(windowWidth < 771) {
         $(document).ready(function(){
-            $( '.best_product' ).width( '97vw' );
+            $( '.sec04 .best_product' ).width( '97vw' );
         });  
     } else if(windowWidth < 1619) {
         $(document).ready(function(){
-            $( '.best_product' ).width( '90vw' );
+            $( '.sec04 .best_product' ).width( '90vw' );
         });  
     } else {
         $(document).ready(function(){
-        $( '.best_product' ).width( '1620px' );
+        $( '.sec04 .best_product' ).width( '1620px' );
     });
 
     }

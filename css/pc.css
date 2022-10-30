@@ -745,6 +745,19 @@
         justify-content: space-around;
     }
 
+    #sec04_1 .best_product {
+        height: 900px;
+        width: 1620px;
+    }
+    #sec04_2 .best_product {
+        height: 900px;
+        width: 1620px;
+    }
+    #sec04_3 .best_product {
+        height: 900px;
+        width: 1620px;
+    }
+
     .best_item {
         width: 300px;
         height: 500px;
